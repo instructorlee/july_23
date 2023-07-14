@@ -17,6 +17,13 @@ available_weapons = [
     ("mace", 12, 2),
 ]
 
+available_foods = [  # TUPLES!
+    ("apple", 5),
+    ("bread", 10),
+    ("ale", 12),
+    ("cheese", 8),
+]
+
 print(f"Welcome to the game, {player.name}!")
 print("Type 'help' for a list of commands.")
 
