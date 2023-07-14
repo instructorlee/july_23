@@ -5,4 +5,12 @@ class Player:
         self.name = name
         self.strength = strength
 
+        self.weapons = []
+
+    def walk(self) -> bool:
+        self.strength -= 1
+        return self.strength
     
+    def add_weapon(self, weapon) -> object:
+        self.weapons.append(weapon)
+        return weapon
